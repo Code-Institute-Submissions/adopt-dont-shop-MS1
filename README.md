@@ -26,3 +26,29 @@ Project Purpose:
 * To educate people about the dangers of buying dogs from unregulated breeders.
 * To promote rescue through the showcasing of other rescue stories. 
 * To inform people in Ireland where they can go to rescue a pet. 
+
+### 2. Scope 
+
+### 3. Structure
+
+### 4. Skeleton 
+
+### 5. Surface 
+
+## Feautures 
+
+## Technologies Used 
+
+## Resources 
+
+## Testing
+
+## Project Barriers And Solutions 
+
+## Code Validity 
+
+## Version Control 
+
+## Deployment
+
+## Acknowledgements 
