@@ -18,3 +18,11 @@ rescue a dog or support charities.
 1. As a site owner I want the information to be clear and informative.
 2. As a site owner I want the content to encourage people to support the campaign purpose. 
 3. As a site owner I want the website to be easy and straightforward to use. 
+
+### 1. Strategy 
+Project Purpose:
+
+* To encourage users to consider rescue shelters when looking for a pet.
+* To educate people about the dangers of buying dogs from unregulated breeders.
+* To promote rescue through the showcasing of other rescue stories. 
+* To inform people in Ireland where they can go to rescue a pet. 
