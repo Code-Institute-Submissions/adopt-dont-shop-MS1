@@ -43,10 +43,16 @@ Project Purpose:
 
 ## Testing
 
+* I used Google Chrome Dev Tools to view my nav and homepage image once implemented across different device sizes to ensure the image scaled up/down. 
+
+
 ## Project Barriers And Solutions 
 
 * I ran into issues almost immediately with creating a responsive image on the home page that would work across different devices and wouldn't
 contain too much white space. In the end using "img-fluid" gave the best response, I will be reviewing again to see if it can be improved further.
+
+* I implemented a hamburger menu that upon clicking a link within, it would not collapse. I found a solution of Stack Overflow which is credited in my code, 
+the solution used is found at this link https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked. 
 
 ## Code Validity 
 
