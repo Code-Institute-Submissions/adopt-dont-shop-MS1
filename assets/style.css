@@ -1,4 +1,43 @@
-.home-image {
-    padding: 10px 20px 10px 20px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Open+Sans:wght@300&display=swap');
+
+/* General */
+
+body {
+    font-family: "Open-Sans" , sans-serif;
+    background-color: #fafafa;
 }
 
+/* Navbar */ 
+
+.navbar {
+    padding: 10px 15px 10px 15px;
+}
+.navbar-brand {
+    font-family: "Nunito" , sans-serif;
+    color: black;
+    font-size: 33px;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    font-family: "Nunito" , sans-serif;
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(198,111,0);
+    text-decoration: underline;
+}
+
+.fa-bars {
+    padding: 4px;
+}
+
+/* Main Content */ 
+
+#main-content h1 {
+    font-size: 30px;
+}
