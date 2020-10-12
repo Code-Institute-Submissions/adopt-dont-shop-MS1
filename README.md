@@ -45,6 +45,9 @@ Project Purpose:
 
 ## Project Barriers And Solutions 
 
+* I ran into issues almost immediately with creating a responsive image on the home page that would work across different devices and wouldn't
+contain too much white space. In the end using "img-fluid" gave the best response, I will be reviewing again to see if it can be improved further.
+
 ## Code Validity 
 
 ## Version Control 
