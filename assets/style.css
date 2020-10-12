@@ -41,3 +41,20 @@ body {
 #main-content h1 {
     font-size: 30px;
 }
+
+/* Footer */
+
+.fab {
+    color: black;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.fab:hover {
+    color: rgb(198, 111, 0)
+}
+
+footer {
+    text-align: center;
+}
+    
