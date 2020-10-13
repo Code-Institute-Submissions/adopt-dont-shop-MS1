@@ -47,9 +47,16 @@ Project Purpose:
 
 ## Resources 
 
+* YouTube - general resource and specifically for Nav Bar implementation as commented in code. 
+* https://www.w3schools.com/ - general reference 
+* https://getbootstrap.com/ - documentation for different features. 
+
 ## Testing
 
-* I used Google Chrome Dev Tools to view my nav and homepage image once implemented across different device sizes to ensure the image scaled up/down. 
+* Once I had implemented my Nav Bar and Home Page image, I viewed this using Google Chrome Developer Tools to see how the image and nav bar 
+appeared on different device sizes. I then physically checked this on an Iphone 8, Iphone 8 Plus, Ipad Pro 11" and a Macbook Air 13".
+* In my Wireframes you'll see I initally had a different layout planned for the Home Page, however on inserting content and viewing on multiple
+devices I decided to change the grid layout. I again viewed on the above devices and used Google Chrome Developer Tools. 
 
 
 ## Project Barriers And Solutions 
