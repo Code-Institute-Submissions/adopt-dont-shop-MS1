@@ -73,4 +73,14 @@ the solution used is found at this link https://stackoverflow.com/questions/3640
 
 ## Deployment
 
+* All code was written using Gitpod, an online IDE.
+* This code was pushed to Github and stored as a repositorie.
+* To deploy I chose the repositorie to be deployed, then I entered the settings of this repo. 
+* Within settings I scrolled down until I found the section titled "Pages". 
+* In this section I selected "Master" as the branch, then saved.
+* Once this is saved a link will be shown with the website deployed onto GitHub pages. 
+* If you follow this link it will bring you to the deployed website. 
+
+### To Clone: 
+
 ## Acknowledgements 
