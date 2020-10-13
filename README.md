@@ -39,6 +39,12 @@ Project Purpose:
 
 ## Technologies Used 
 
+### Languages Used 
+
+* HTML5 
+* CSS3 
+* Bootstrap v4.5
+
 ## Resources 
 
 ## Testing
