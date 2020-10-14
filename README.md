@@ -68,6 +68,8 @@ Project Purpose:
 appeared on different device sizes. I then physically checked this on an Iphone 8, Iphone 8 Plus, Ipad Pro 11" and a Macbook Air 13".
 * In my Wireframes you'll see I initally had a different layout planned for the Home Page, however on inserting content and viewing on multiple
 devices I decided to change the grid layout. I again viewed on the above devices and used Google Chrome Developer Tools. 
+* When I added the Contact Page, I tested the responsiveness of the site so far on mobile devices by using https://search.google.com/test/mobile-friendly. 
+This test returned the result that the site was mobile friendly and that there were no loading issues. 
 
 
 ## Project Barriers And Solutions 
