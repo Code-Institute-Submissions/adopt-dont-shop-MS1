@@ -35,9 +35,20 @@ Project Purpose:
 
 ### 5. Surface 
 
-## Feautures 
+## Features 
+
+### Current Features 
+
+### Features Left To Be Implemented
 
 ## Technologies Used 
+
+* HTML5 
+* CSS3 
+* Bootstrap v4.5
+* Font Awesome 
+* Google Fonts 
+
 
 ### Languages Used 
 
@@ -69,7 +80,12 @@ the solution used is found at this link https://stackoverflow.com/questions/3640
 
 ## Code Validity 
 
+* HTML - 
+* CSS - 
+
 ## Version Control 
+
+For version control, Git was used.
 
 ## Deployment
 
