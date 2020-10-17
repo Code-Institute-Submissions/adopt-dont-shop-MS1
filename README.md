@@ -102,3 +102,8 @@ For version control, Git was used.
 ### To Clone: 
 
 ## Acknowledgements 
+
+* The layout of my Rescue Centre page using card decks, the layout was taken from the Bootstrap documentation and then customised for my content.
+  The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
+* My background image on the contact page is from "".
+* My homepage image is from "". 
