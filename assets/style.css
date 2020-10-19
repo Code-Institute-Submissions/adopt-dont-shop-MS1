@@ -135,3 +135,7 @@ footer {
     height: 56vh;
   
 }
+
+.card-title {
+    font-family: "Montserrat" , sans-serif;
+}
