@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
 
 /* General */
 
 body {
-    font-family: "Nunito" , sans-serif;
+    font-family: "Lora" , serif;
     background-color: #fafafa;
 }
 
@@ -14,7 +14,7 @@ body {
     padding: 10px 15px 10px 15px;
 }
 .navbar-brand {
-    font-family: "Open-Sans" , sans-serif;
+    font-family: "Montserrat" , sans-serif;
     color: black;
     font-size: 30px;
     letter-spacing: 1px;
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link {
-    font-family: "Nunito" , sans-serif;
+    font-family: "Montserrat" , sans-serif;
     color: black;
     font-size: 18px;
     
@@ -46,7 +46,7 @@ body {
     padding: 15px 2px 15px 2px;
     font-size: 35px;
     text-align: center;
-    font-family: "Open-Sans" , sans-serif;
+    font-family: "Montserrat" , sans-serif;
     color: rgb(0, 0, 0);
 }
 
@@ -89,7 +89,7 @@ footer {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-family: "Open-Sans" , sans-serif;
+    font-family: "Montserrat" , sans-serif;
     color: rgb(0, 0, 0);
 }
 
