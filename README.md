@@ -43,18 +43,22 @@ Project Purpose:
 
 ## Technologies Used 
 
-* HTML5 
-* CSS3 
-* Bootstrap v4.5
-* Font Awesome 
-* Google Fonts 
-
-
 ### Languages Used 
 
 * HTML5 
 * CSS3 
-* Bootstrap v4.5
+
+
+### Frameworks & Libaries Used
+
+* Bootstrap 4.5 
+* Google Fonts
+* Font Awesome 
+* Git 
+* Github 
+* Gitpod 
+* Github Pages 
+* Google Chrome Developer Tools
 
 ## Resources 
 
@@ -79,6 +83,10 @@ contain too much white space. In the end using "img-fluid" gave the best respons
 
 * I implemented a hamburger menu that upon clicking a link within, it would not collapse. I found a solution on Stack Overflow which is credited in my code, 
 the solution used is found at this link https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked. 
+
+* I deployed my site and when I did so, the images on my "Rescue Centres" page were not showing and were instead displaying as the "alt" description. 
+When I had been using Gitpod to preview these images had been working fine. I searched through slack and realised I was using absolute file paths rather than relative.
+
 
 ## Code Validity 
 
@@ -105,5 +113,7 @@ For version control, Git was used.
 
 * The layout of my Rescue Centre page using card decks, the layout was taken from the Bootstrap documentation and then customised for my content.
   The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
+* To the Code Institute course material, as the basis of all my knowledge is from here.
+* To the Slack community as I have used the different channels to find answers to problems!
 * My background image on the contact page is from "".
 * My homepage image is from "". 
