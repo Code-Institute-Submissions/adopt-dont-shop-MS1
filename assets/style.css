@@ -5,6 +5,7 @@
 body {
     font-family: "Lora" , serif;
     background-color: #fafafa;
+    font-size: 18px;
 }
 
 
@@ -51,7 +52,7 @@ body {
 }
 
 .main-content p {
-    line-height: 25px;
+    line-height: 28px;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -138,4 +139,30 @@ footer {
 
 .card-title {
     font-family: "Montserrat" , sans-serif;
+}
+
+/* Rescue-Stories Page */
+
+.story-image-1 {
+    background: url("../assets/images/cooper-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.story-image-2 {
+    background: url("../assets/images/lulu-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.story-image-3 {
+    background: url("../assets/images/simba-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
 }
