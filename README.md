@@ -29,6 +29,10 @@ Project Purpose:
 
 ### 2. Scope 
 
+* I wanted a simple, straightforward UX experience. 
+* I needed what I designed to be within the realms of my current knowledge whilst still being a modern, easy to use website.
+* Although fictional, I wanted my content to be clear and concise as though it would be used by real world users. 
+
 ### 3. Structure
 
 ### 4. Skeleton 
@@ -36,6 +40,10 @@ Project Purpose:
 ### 5. Surface 
 
 ## Features 
+
+* A four page site navigated using the Nav Bar on large device screens, or a hamburger menu on medium and smaller devices. 
+* A page displaying multiple cards containing buttons which allow the user to visit external websites. 
+* Social media links are easily accessible in the footer for the user. 
 
 ### Current Features 
 
@@ -74,21 +82,26 @@ appeared on different device sizes. I then physically checked this on an Iphone 
 devices I decided to change the grid layout. I again viewed on the above devices and used Google Chrome Developer Tools. 
 * When I added the Contact Page, I tested the responsiveness of the site so far on mobile devices by using https://search.google.com/test/mobile-friendly. 
 This test returned the result that the site was mobile friendly and that there were no loading issues. 
+* I ran each deployed page individually through https://color.a11y.com/ to test that the colour contrast was accessible, this returned excellent results.
+* I checked that each Nav Bar item takes the user to the intended page site by clicking and viewing. 
+* On the Rescue Centres page I checked that each button opens a new tab and takes the user to the intended external site. When I did this I found an error on the 
+last rescue centre, I fixed this by implementing the correct URL in the href. 
+* The site was viewed through a Samsung A21s, on this device all pages appeared as they should and links / buttons worked well. 
 
 
 ## Project Barriers And Solutions 
 
 * I ran into issues almost immediately with creating a responsive image on the home page that would work across different devices and wouldn't
-contain too much white space. In the end using "img-fluid" gave the best response, I will be reviewing again to see if it can be improved further.
+contain too much white space. In the end using "img-fluid" gave the best response.
 
 * I implemented a hamburger menu that upon clicking a link within, it would not collapse. I found a solution on Stack Overflow which is credited in my code, 
 the solution used is found at this link https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked. 
 
 * I deployed my site and when I did so, the images on my "Rescue Centres" page were not showing and were instead displaying as the "alt" description. 
-When I had been using Gitpod to preview these images had been working fine. I searched through slack and realised I was using absolute file paths rather than relative.
+When I had been using Gitpod to preview, these images had been working fine. I searched through Slack and realised I was using absolute file paths rather than relative.
 
 * When viewing the site on larger device screens, I noticed my page was scrollable horizontally and was leaving unwanted space to the right. I searched 
-Stack Overflow and found a solution, the link for the code is used is here and credited in my style.css file. Link: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
+Stack Overflow and found a solution, the link for the code I used is here and credited in my style.css file. Link: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
 
 
 ## Code Validity 
@@ -114,9 +127,10 @@ For version control, Git was used.
 
 ## Acknowledgements 
 
-* The layout of my Rescue Centre page using card decks, the layout was taken from the Bootstrap documentation and then customised for my content.
+* The layout of my Rescue Centre page using cards, the layout was taken from the Bootstrap documentation and then customised for my content.
   The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
 * To the Code Institute course material, as the basis of all my knowledge is from here.
 * To the Slack community as I have used the different channels to find answers to problems!
-* My background image on the contact page is from "".
-* My homepage image is from "". 
+* My background image on the contact page is from https://www.pexels.com.
+* My homepage image is from https://unsplash.com. 
+* Stack Overflow as a valuable resource for solving a couple of issues. 
