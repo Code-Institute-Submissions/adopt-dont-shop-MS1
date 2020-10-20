@@ -41,11 +41,11 @@ Project Purpose:
 
 ## Features 
 
+### Current Features 
+
 * A four page site navigated using the Nav Bar on large device screens, or a hamburger menu on medium and smaller devices. 
 * A page displaying multiple cards containing buttons which allow the user to visit external websites. 
 * Social media links are easily accessible in the footer for the user. 
-
-### Current Features 
 
 ### Features Left To Be Implemented
 
