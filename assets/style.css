@@ -6,19 +6,22 @@ body {
     font-family: "Lora" , serif;
     background-color: #fafafa;
     font-size: 18px;
+    margin: 0;
 }
 
 
 /* Navbar */ 
 
 .navbar {
-    padding: 10px 15px 10px 15px;
+    background-color: rgba(249, 166, 9, 0.2);
+    padding: 8px 4px 8px 4px;
 }
 .navbar-brand {
     font-family: "Montserrat" , sans-serif;
     color: black;
     font-size: 30px;
     letter-spacing: 1px;
+    margin-right: 0;
 }
 
 .navbar-brand:hover {
@@ -45,7 +48,7 @@ body {
 
 .main-content h1 {
     padding: 15px 2px 15px 2px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-family: "Montserrat" , sans-serif;
     color: rgb(0, 0, 0);
@@ -61,6 +64,11 @@ body {
 .main-content .fas {
     color: rgb(198, 111, 0);
     font-size: 25px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -80,7 +88,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #fafafa;
+    background-color: rgba(249, 166, 9, 0.2); 
 }
 
 /* Contact Page */
@@ -132,11 +140,6 @@ footer {
 
 /* Rescue-Centre Page */
 
-.card-img-top {
-    height: 56vh;
-  
-}
-
 .card-title {
     font-family: "Montserrat" , sans-serif;
 }
@@ -173,4 +176,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+}
+
+
+#rescue-stories p {
+    padding: 10px;
 }
