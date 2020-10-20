@@ -87,6 +87,9 @@ the solution used is found at this link https://stackoverflow.com/questions/3640
 * I deployed my site and when I did so, the images on my "Rescue Centres" page were not showing and were instead displaying as the "alt" description. 
 When I had been using Gitpod to preview these images had been working fine. I searched through slack and realised I was using absolute file paths rather than relative.
 
+* When viewing the site on larger device screens, I noticed my page was scrollable horizontally and was leaving unwanted space to the right. I searched 
+Stack Overflow and found a solution, the link for the code is used is here and credited in my style.css file. Link: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
+
 
 ## Code Validity 
 
