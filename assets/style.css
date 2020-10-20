@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+/* This code was taken from Stack Overflow to fix the issue of unwanted scrolling horizontally when viewing on larger screens */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 /* Navbar */ 
 
