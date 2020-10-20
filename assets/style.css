@@ -46,6 +46,7 @@ html, body {
     text-decoration: underline;
 }
 
+
 .fa-bars {
     padding: 4px;
 }
@@ -82,7 +83,7 @@ html, body {
 
 .fab {
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 2px 10px 2px;
 }
 
@@ -133,23 +134,15 @@ footer {
     background: url(../assets/images/contact-bg.jpg) no-repeat center center;
 }
 
-@media (max-width: 992px) {
-
-        .form-section
-     {
-        padding-top: 15px;
-        margin: 0 auto;
-        width: 100%;
-     }
-
-}
-
 /* Rescue-Centre Page */
 
 .card-title {
     font-family: "Montserrat" , sans-serif;
 }
-
+.card {
+    background-color: #fafafa;
+    border: 1px solid orange;
+}
 /* Rescue-Stories Page */
 
 .story-image-1 {
@@ -187,4 +180,38 @@ footer {
 
 #rescue-stories p {
     padding: 10px;
+}
+
+
+/* Media Queries */ 
+
+@media (max-width: 992px) {
+
+        .form-section
+     {
+        padding-top: 15px;
+        margin: 0 auto;
+        width: 100%;
+     }
+
+}
+
+/* To stop hamburger icon from dropping below page title */
+
+@media (max-width: 320px) {
+    .navbar 
+    {
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .navbar-brand
+    {
+        font-size: smaller;
+        padding-left: 10px;
+
+    }
 }
