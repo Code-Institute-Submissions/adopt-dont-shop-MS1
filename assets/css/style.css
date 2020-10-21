@@ -25,6 +25,7 @@ html, body {
     color: black;
     font-size: 30px;
     letter-spacing: 1px;
+    font-weight: bold;
     margin: 3px;
 }
 
@@ -70,13 +71,18 @@ html, body {
     color: rgb(198, 111, 0);
     font-size: 25px;
 }
-
-.main-content {
-    margin: 5px;
-}
-
 .container-fluid {
     padding: 0;
+}
+
+.container-fluid .main-content {
+    margin: 20px;
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Footer */
