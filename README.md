@@ -131,6 +131,8 @@ For version control, Git was used.
   The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
 * To the Code Institute course material, as the basis of all my knowledge is from here.
 * To the Slack community as I have used the different channels to find answers to problems!
-* My background image on the contact page is from https://www.pexels.com.
+* My background image on the "Contact Page" is from https://www.pexels.com.
 * My homepage image is from https://unsplash.com. 
+* My 5th and 6th "Rescue Stories" images are from https://unsplash.com.
 * Stack Overflow as a valuable resource for solving a couple of issues. 
+* Images that aren't referenced above are my own personal photos. 
