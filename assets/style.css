@@ -124,13 +124,12 @@ footer {
 }
 
 .submit-button {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
 
 .contact-page {
-    height: 100vh;
     background: url(../assets/images/contact-bg.jpg) no-repeat center center;
 }
 
@@ -185,16 +184,17 @@ footer {
 
 /* Media Queries */ 
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
 
         .form-section
      {
         padding-top: 15px;
         margin: 0 auto;
         width: 100%;
+        
      }
-
 }
+
 
 /* To stop hamburger icon from dropping below page title */
 
@@ -205,4 +205,12 @@ footer {
         padding-left: 10px;
 
     }
+}
+
+@media (min-width: 768px) {
+    .contact-page 
+{
+    background: url(../assets/images/contact-bg.jpg) no-repeat center center;
+    height: 100vh;
+}
 }
