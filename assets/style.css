@@ -198,7 +198,7 @@ footer {
 
 /* To stop hamburger icon from dropping below page title */
 
-@media (max-width: 280px) {
+@media (max-width: 320px) {
     .navbar-brand
     {
         font-size: smaller;
