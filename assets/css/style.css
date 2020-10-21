@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
 
 /* General */
-
 body {
     font-family: "Lora" , serif;
     background-color: #fafafa;
     font-size: 18px;
-    margin: 5px;
 }
 
 /* This code was taken from Stack Overflow to fix the issue of unwanted scrolling horizontally when viewing on larger screens */
@@ -15,19 +13,19 @@ html, body {
     overflow-x: hidden;
 }
 
-
 /* Navbar */ 
-
 .navbar {
-    background-color: rgba(249, 166, 9, 0.2);
-    padding: 8px 4px 8px 4px;
+    background-color: rgb(255, 215, 105);
+    margin-top: 0;
+    padding: 4px;   
 }
+
 .navbar-brand {
     font-family: "Montserrat" , sans-serif;
     color: black;
     font-size: 30px;
     letter-spacing: 1px;
-    margin-right: 0;
+    margin: 3px;
 }
 
 .navbar-brand:hover {
@@ -38,11 +36,12 @@ html, body {
     font-family: "Montserrat" , sans-serif;
     color: black;
     font-size: 18px;
+    margin: 3px;
     
 }
 
 .nav-link:hover {
-    color: rgb(198,111,0);
+    color: #000;
     text-decoration: underline;
 }
 
@@ -51,8 +50,7 @@ html, body {
     padding: 4px;
 }
 
-/* Main Content */ 
-
+/* Home Page */ 
 .main-content h1 {
     padding: 15px 2px 15px 2px;
     font-size: 30px;
@@ -73,14 +71,15 @@ html, body {
     font-size: 25px;
 }
 
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+.main-content {
+    margin: 5px;
 }
 
+.container-fluid {
+    padding: 0;
+}
 
 /* Footer */
-
 .fab {
     color: black;
     font-size: 25px;
@@ -88,14 +87,14 @@ html, body {
 }
 
 .fab:hover {
-    color: rgb(198, 111, 0)
+    color: rgb(198, 111, 0);
 }
 
 footer {
     padding-top: 2px;
     text-align: center;
     font-size: 15px;
-    background-color: rgba(249, 166, 9, 0.2); 
+    background-color: rgb(255, 215, 105); 
 }
 
 footer p {
@@ -104,7 +103,6 @@ footer p {
 }
 
 /* Contact Page */
-
 .contact-page-heading {
     font-size: 35px;
     text-align: center;
@@ -121,6 +119,7 @@ footer p {
     color: rgb(0, 0, 0);
 
 }
+
 .form-section {
     padding-top: 15px;
     margin: 0 auto;
@@ -135,20 +134,20 @@ footer p {
 }
 
 .contact-page {
-    background: url(../assets/images/contact-bg.jpg) no-repeat center center;
+    background: url("/assets/images/contact-bg.jpg") no-repeat center center;
 }
 
 /* Rescue-Centre Page */
-
 .card-title {
     font-family: "Montserrat" , sans-serif;
 }
+
 .card {
     background-color: #fafafa;
     border: 1px solid orange;
 }
-/* Rescue-Stories Page */
 
+/* Rescue-Stories Page */
 .story-image-1 {
     background: url("/assets/images/cooper-1.jpg");
     background-position: center;
@@ -181,14 +180,11 @@ footer p {
     min-height: 360px;
 }
 
-
-#rescue-stories p {
-    padding: 10px;
+#rescue-stories {
+    margin: 5px;
 }
 
-
 /* Media Queries */ 
-
 @media (max-width: 1024px) {
 
         .form-section
@@ -200,22 +196,53 @@ footer p {
      }
 }
 
-
 /* To stop hamburger icon from dropping below page title */
-
 @media (max-width: 320px) {
     .navbar-brand
     {
-        font-size: smaller;
-        padding-left: 10px;
-
+    font-size: smaller;
+    padding-left: 10px;
     }
 }
 
 @media (min-width: 768px) {
     .contact-page 
-{
-    background: url(../assets/images/contact-bg.jpg) no-repeat center center;
+    {
+    background: url("/assets/images/contact-bg.jpg") no-repeat center center;
     height: 100vh;
+    }
 }
+
+/* For fixed top navbar on small/md devices*/
+@media (max-width: 1024px) {
+    .fixed-top 
+    {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+}
+
+/* For no fixed navbar on desktop devices */
+@media (min-width: 1024px) {
+    .fixed-top
+    {
+    position: relative;
+    }
+}
+/* To stop navbar covering content */
+@media (max-width: 540px) {
+    .home-image 
+    {
+    margin-top: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-image 
+    {
+    margin-top: 40px;
+    }
 }
