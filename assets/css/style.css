@@ -186,6 +186,22 @@ footer p {
     min-height: 360px;
 }
 
+.story-image-5 {
+    background: url("/assets/images/daisy-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.story-image-6 {
+    background: url("/assets/images/bob-and-dylan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
 #rescue-stories {
     margin: 5px;
 }
