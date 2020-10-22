@@ -22,7 +22,7 @@ rescue a dog or support charities.
 3. As a site owner I want the website to be easy and straightforward to use. 
 
 ### 1. Strategy 
-Project Purpose:
+**Project Purpose:**
 
 * To encourage users to consider rescue shelters when looking for a pet.
 * To educate people about the dangers of buying dogs from unregulated breeders.
@@ -62,7 +62,7 @@ The heading font chosen is Montserrat paired with Lora.
 
 **Images:** 
  
- All images are related directly to the purpose of the site, this is why photos of animals were chosen. I deliberately chose photos 
+All images are related directly to the purpose of the site, this is why photos of animals were chosen. I deliberately chose photos 
 where the animals looked relaxed or happy rather than showing the in rescue centres or coming from unpleasant places as I didn't want to evoke 
 negative/upsetting emotions for users.
 
@@ -86,7 +86,6 @@ negative/upsetting emotions for users.
 
 * HTML5 
 * CSS3 
-
 
 ### Frameworks & Libaries Used
 
@@ -130,9 +129,6 @@ last rescue centre, I fixed this by implementing the correct URL in the href.
 "Please fill in this field!"
 * I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
 
-
-
-
 ## Project Barriers And Solutions 
 
 * I ran into issues almost immediately with creating a responsive image on the home page that would work across different devices and wouldn't
@@ -173,6 +169,11 @@ For version control, Git was used.
 * If you follow this link it will bring you to the deployed website. 
 
 ### To Clone: 
+
+* You can run the code locally by cloning or downloading. 
+* You click the code button within the repositorie and then select either clone or download. 
+* If you clone you will be provided with a url to run in your IDE. 
+* If you download, you will be given a zip file.
 
 ## Acknowledgements 
 
