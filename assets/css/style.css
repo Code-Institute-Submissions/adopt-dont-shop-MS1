@@ -155,6 +155,16 @@ footer p {
     border: 1px solid orange;
 }
 
+.rescue-centres-one,
+.rescue-centres-two {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-md-4,
+.col-sm-12 {
+    padding-bottom: 10px
+}
 /* Rescue-Stories Page */
 .story-image-1 {
     background: url("/assets/images/cooper-1.jpg");
@@ -207,6 +217,11 @@ footer p {
 #rescue-stories .row {
     padding-top: 10px;
     margin: 10px;
+}
+
+.story-text {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Media Queries */ 
@@ -282,7 +297,7 @@ footer p {
 @media (max-width: 800px) {
     .story-text
     {
-    margin-top: 60px;
+    margin-top: 15px;
     }
 }
 
@@ -293,9 +308,16 @@ footer p {
     }
 }
 
-@media (max-width: 320px) {
-    .story-text
+@media (max-width: 768px) {
+    .rescue-centres-one
     {
-    margin-top: 40px;
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 320px) {
+    .rescue-centres-one 
+    {
+        margin-top: 50px;
     }
 }
