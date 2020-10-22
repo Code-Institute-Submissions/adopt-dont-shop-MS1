@@ -9,9 +9,9 @@
     <title>Rescue Centres</title>
 </head>
 <body>
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top">
-    <a href="index.html" class="navbar-brand">Adopt Don't Shop</a>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="index.html" class="navbar-brand">Adopt Don't Shop</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarLinks">
                 <span>
                     <i class="fas fa-bars"></i>
@@ -19,8 +19,8 @@
             </button>
         <div class="collapse navbar-collapse" id="navbarLinks">
             <ul class="navbar-nav ml-auto">
-                <!-- Solution for hamburger menu not collapsing when clicking list item solved by adding data toggle and data target classes to li. 
-                Solution from StackOverflow: https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked -->
+            <!-- Solution for hamburger menu not collapsing when clicking list item solved by adding data toggle and data target classes to li. 
+            Solution from StackOverflow: https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked -->
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
@@ -35,23 +35,23 @@
                 </li>
             </ul>
         </div>
-</nav>
-<!-- RESCUE CENTRES -->
-<!-- The layout for using cards was taken from Bootstrap documentation, then customised to suit my needs. The link for the documentation 
-is https://getbootstrap.com/docs/4.0/components/card/#using-grid-markup -->
-<div class="container-fluid rescue-centres-one">
-    <div class="row">
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;" src="assets/images/madra-logo.jpg" alt="Madra Logo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Madra is based in Galway, they rescue, rehabilitate and rehome unwanted dogs. Their contact number is 091 584 274
-                        </p>
-                        <a href="https://www.madra.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                    </div>
+    </nav>
+    <!-- RESCUE CENTRES -->
+    <!-- The layout for using cards was taken from Bootstrap documentation, then customised to suit my needs. The link for the documentation 
+    is https://getbootstrap.com/docs/4.0/components/card/#using-grid-markup -->
+    <div class="container-fluid rescue-centres-one">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;" src="assets/images/madra-logo.jpg" alt="Madra Logo">
+                <div class="card-body">
+                    <p class="card-text">
+                        Madra is based in Galway, they rescue, rehabilitate and rehome unwanted dogs. Their contact number is 091 584 274
+                    </p>
+                    <a href="https://www.madra.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                 </div>
+               </div>
             </div>
-        </div>
         <div class="col-md-4 col-sm-12">
             <div class="card h-100">
                 <img class="card-img-top" style="height: 25rem;"  src="assets/images/dogs-trust.jpg" alt="Dogs Trust Logo">
@@ -63,26 +63,26 @@ is https://getbootstrap.com/docs/4.0/components/card/#using-grid-markup -->
                      </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;" src="assets/images/ispca-logo.jpg" alt="ISPCA Logo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            The ISPCA has multiple centres around Ireland, from their National Equine Centre to the Rehabilitation Centre for all animals. 
-                        </p>
-                        <a href="https://www.ispca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                     </div>
-            </div>
-        </div>
+     <div class="col-md-4 col-sm-12">
+         <div class="card h-100">
+             <img class="card-img-top" style="height: 25rem;" src="assets/images/ispca-logo.jpg" alt="ISPCA Logo">
+             <div class="card-body">
+                 <p class="card-text">
+                     The ISPCA has multiple centres around Ireland, from their National Equine Centre to the Rehabilitation Centre for all animals. 
+                 </p>
+                 <a href="https://www.ispca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+             </div>
+          </div>
+      </div>
     </div>
-</div>
-<div class="container-fluid rescue-centres-two">
-<!-- Cards weren't displaying at the same height across all devices, I researched and using Stack Overflow found adding a class of h-100 resolved the issue.
-The link to this info is here https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
-    <div class="row">
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;" src="assets/images/paws-rescue.jpg" alt="PAWS Logo">
+    </div>
+    <div class="container-fluid rescue-centres-two">
+    <!-- Cards weren't displaying at the same height across all devices, I researched and using Stack Overflow found adding a class of h-100 resolved the issue.
+    The link to this info is here https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
+       <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;" src="assets/images/paws-rescue.jpg" alt="PAWS Logo">
                     <div class="card-body">
                         <p class="card-text">
                             Paws are dedicated to rescuing homeless or abandoned animals, they also help to resuce dogs from "high-kill" pounds. 
@@ -90,47 +90,47 @@ The link to this info is here https://stackoverflow.com/questions/35868756/how-t
                         </p>
                         <a href="https://www.paws.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
                     </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;"  src="assets/images/ainmhithe-logo.jpg" alt="Ainmhithe Logo">
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;"  src="assets/images/ainmhithe-logo.jpg" alt="Ainmhithe Logo">
                     <div class="card-body">
                         <p class="card-text">
                             A small independent rescue based in Co.Mayo, they have a no-kill policy so all animals in their care remain with them 
                             until they find their forever home!
                         </p>
                         <a href="https://ainmhitheanimalrescue.com/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                     </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;" src="assets/images/cspca-logo.png" alt="CSPCALogo">
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;" src="assets/images/cspca-logo.png" alt="CSPCALogo">
                     <div class="card-body">
                         <p class="card-text">
                             A non profit organisation that relies heavily on donations, they rescue unwanted animals from the Cork area. 
                             You can contact them on 021 451 5534. 
                         </p>
                         <a href="http://cspca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                     </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- FOOTER -->
-<footer>
-     <p> 
-        111 Higher Lane, County Galway<br>
-        089 123 4567
-    </p>
-    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- FOOTER -->
+    <footer>
+        <p> 
+            111 Higher Lane, County Galway<br>
+            089 123 4567
+        </p>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
