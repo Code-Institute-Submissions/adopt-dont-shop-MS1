@@ -248,7 +248,7 @@ footer p {
 @media (min-width: 768px) {
     .contact-page 
     {
-    background: url("../images/contact-bg.jpg") no-repeat center center;
+    background: url("../images/contact-bg.jpg") center center;
     height: 100vh;
     }
 }
