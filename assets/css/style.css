@@ -142,7 +142,7 @@ footer p {
 }
 
 .contact-page {
-    background: url("assets/images/contact-bg.jpg") no-repeat center center;
+    background: url("../images/contact-bg.jpg") no-repeat center center;
 }
 
 /* Rescue-Centre Page */
@@ -167,7 +167,7 @@ footer p {
 }
 /* Rescue-Stories Page */
 .story-image-1 {
-    background: url("assets/images/cooper-1.jpg");
+    background: url("../images/cooper-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +175,7 @@ footer p {
 }
 
 .story-image-2 {
-    background: url("assets/images/lulu-2.jpg");
+    background: url("../images/lulu-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +183,7 @@ footer p {
 }
 
 .story-image-3 {
-    background: url("assets/images/simba-3.jpg");
+    background: url("../images/simba-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +191,7 @@ footer p {
 }
 
 .story-image-4 {
-    background: url("assets/images/cat-4-.jpg");
+    background: url("../images/cat-4-.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ footer p {
 }
 
 .story-image-5 {
-    background: url("assets/images/daisy-image.jpg");
+    background: url("../images/daisy-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@ footer p {
 }
 
 .story-image-6 {
-    background: url("assets/images/bob-and-dylan.jpg");
+    background: url("../images/bob-and-dylan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +248,7 @@ footer p {
 @media (min-width: 768px) {
     .contact-page 
     {
-    background: url("assets/images/contact-bg.jpg") no-repeat center center;
+    background: url("../images/contact-bg.jpg") no-repeat center center;
     height: 100vh;
     }
 }
