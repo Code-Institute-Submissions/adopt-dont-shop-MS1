@@ -37,6 +37,7 @@ Project Purpose:
 
 ### 4. Skeleton 
 
+* Wireframes can be viewed here: https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1. 
 * Home, Rescue Stories, Rescue Centres and a Contact page. 
 * A fixed navbar for mobile and tablet view. 
 * A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
@@ -167,5 +168,5 @@ For version control, Git was used.
 
 I would like to thank:
 * My mentor Precious Ijege for his time, support and guidance. 
-* Jim Lynx who is also studying, he answered my questions and I also read his README as I found it very helpful regarding layout of content.
+* Jim Lynx who is also on the course, he answered my questions and I also read his README as I found it very helpful regarding layout of content.
 * The Slack community who have helped me anytime I have had a question. 
