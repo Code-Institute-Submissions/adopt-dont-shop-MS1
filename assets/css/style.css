@@ -321,3 +321,17 @@ footer p {
         margin-top: 50px;
     }
 }
+
+@media (max-width: 768px) {
+    .col
+    {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 320px) {
+    .col
+    {
+        margin-top: 40px;
+    }
+}
