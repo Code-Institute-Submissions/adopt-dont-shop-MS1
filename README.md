@@ -37,6 +37,10 @@ Project Purpose:
 
 ### 4. Skeleton 
 
+* Home, Rescue Stories, Rescue Centres and a Contact page. 
+* A fixed navbar for mobile and tablet view. 
+* A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
+
 ### 5. Surface 
 
 ## Features 
@@ -46,8 +50,12 @@ Project Purpose:
 * A four page site navigated using the Nav Bar on large device screens, or a hamburger menu on medium and smaller devices. 
 * A page displaying multiple cards containing buttons which allow the user to visit external websites. 
 * Social media links are easily accessible in the footer for the user. 
+* Nav bar is fixed on devices smaller than desktop, to ensure easy access to menu options.
 
 ### Features Left To Be Implemented
+
+* The form needs to be fully functional and know what to do with the data, this will come further into the course.
+ 
 
 ## Technologies Used 
 
@@ -70,23 +78,35 @@ Project Purpose:
 
 ## Resources 
 
-* YouTube - general resource and specifically for Nav Bar implementation as commented in code. 
+* YouTube - general reference and specifically for Nav Bar implementation as commented in code. 
 * https://www.w3schools.com/ - general reference 
 * https://getbootstrap.com/ - documentation for different features. 
+* https://tinypng.com/ - to compress image sizes without losing quality.
+* https://stackoverflow.com/ - general reference 
+* https://unsplash.com. - images
+* https://www.pexels.com - images 
 
 ## Testing
 
 * Once I had implemented my Nav Bar and Home Page image, I viewed this using Google Chrome Developer Tools to see how the image and nav bar 
 appeared on different device sizes. I then physically checked this on an Iphone 8, Iphone 8 Plus, Ipad Pro 11" and a Macbook Air 13".
-* In my Wireframes you'll see I initally had a different layout planned for the Home Page, however on inserting content and viewing on multiple
-devices I decided to change the grid layout. I again viewed on the above devices and used Google Chrome Developer Tools. 
 * When I added the Contact Page, I tested the responsiveness of the site so far on mobile devices by using https://search.google.com/test/mobile-friendly. 
 This test returned the result that the site was mobile friendly and that there were no loading issues. 
-* I ran each deployed page individually through https://color.a11y.com/ to test that the colour contrast was accessible, this returned excellent results.
-* I checked that each Nav Bar item takes the user to the intended page site by clicking and viewing. 
+* I ran each deployed page individually through https://color.a11y.com/ to test that the colour contrast was accessible, this returned excellent results. 
 * On the Rescue Centres page I checked that each button opens a new tab and takes the user to the intended external site. When I did this I found an error on the 
 last rescue centre, I fixed this by implementing the correct URL in the href. 
-* The site was viewed through a Samsung A21s, on this device all pages appeared as they should and links / buttons worked well. 
+* The site was viewed physically through a Samsung A21s, on this device all pages appeared as they should and links / buttons worked well. 
+* The site was viewed physically through an Ipad Pro 11" all pages appeared as they should and links / buttons worked well.
+* The site was viewed physically through an Iphone 8 plus all pages appeared as they should and links / buttons worked well.
+* The site was viewed physically through an Iphone 8 all pages appeared as they should and links / buttons worked well.
+* I tested the navbar brand text (Adopt Don't Shop) leads the user back to the home page. 
+* I tested that each navbar link (Home, Rescue Stories, Rescue Centres, Contact) takes the user to the correct page. 
+* I tested the Social Media links in the footer, to ensure these take the user to the appropiate external link. 
+* I tested that the form would require an input to be sent, this was done by clicking the "Send Question" button, the form returns the value 
+"Please fill in this field!"
+* I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
+
+
 
 
 ## Project Barriers And Solutions 
@@ -109,8 +129,10 @@ I got this information from Stack Overflow, the link is as follows: https://stac
 
 ## Code Validity 
 
-* HTML - 
-* CSS - 
+* HTML - https://validator.w3.org/ , I ran each page individually through the validator and it returned an error regarding their not being a header within my section,
+on researching on Stack Overflow it seemed you could ignore it as it is a warning not an error but better practice is to remove the section and replace with a div as 
+the section doesn't have a specific benefit. I replaced with a div, reran and this returned no errors.
+* CSS - https://jigsaw.w3.org/css-validator/validator , this returned no errors. 
 
 ## Version Control 
 
@@ -139,3 +161,11 @@ For version control, Git was used.
 * My 5th and 6th "Rescue Stories" images are from https://unsplash.com.
 * Stack Overflow as a valuable resource for solving a couple of issues. 
 * Images that aren't referenced above are my own personal photos. 
+* All content is written by me. 
+* All "Rescue Centres" logos are taken from the charities own websites or social medias.
+* https://www.pagecloud.com/blog/best-google-fonts-pairings - I used this article to help pair my fonts. 
+
+I would like to thank:
+* My mentor Precious Ijege for his time, support and guidance. 
+* Jim Lynx who is also studying, he answered my questions and I also read his README as I found it very helpful regarding layout of content.
+* The Slack community who have helped me anytime I have had a question. 
