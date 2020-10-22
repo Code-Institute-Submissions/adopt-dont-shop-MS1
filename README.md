@@ -37,6 +37,10 @@ Project Purpose:
 
 ### 3. Structure
 
+* A clear layout is in place to ensure users can immediately find what they're looking for. The menu icon used on smaller devices is a well 
+recognised icon (hamburger icon) ensuring familiarity. The content is laid out in a way that makes it easy to read and the sections are 
+easily distinguished. 
+
 ### 4. Skeleton 
 
 * Wireframes can be viewed [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1)
@@ -46,6 +50,21 @@ Project Purpose:
 * A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
 
 ### 5. Surface 
+
+**Colours:** 
+
+I chose font colours and icon colours that I felt complimented the tones of the images on each page. I deliberately stuck to theme of 
+warm colours, I felt warm colours would invoke feelings of happiness. 
+
+**Font:** 
+
+The heading font chosen is Montserrat paired with Lora. 
+
+**Images:** 
+ 
+ All images are related directly to the purpose of the site, this is why photos of animals were chosen. I deliberately chose photos 
+where the animals looked relaxed or happy rather than showing the in rescue centres or coming from unpleasant places as I didn't want to evoke 
+negative/upsetting emotions for users.
 
 ## Features 
 
@@ -89,6 +108,7 @@ Project Purpose:
 * https://stackoverflow.com/ - general reference 
 * https://unsplash.com. - images
 * https://www.pexels.com - images 
+* http://ami.responsivedesign.is/ - for image displaying site on different devices in README. 
 
 ## Testing
 
