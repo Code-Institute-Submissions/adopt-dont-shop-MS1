@@ -1,5 +1,7 @@
 # Adopt Don't Shop 
 
+![Am I Responsive Img](assets/images/am-i-responsive-2.png)
+
 The aim of this project is to encourage people to rescue animals, in particular dogs. The project will showcase
 stores of rescue animals and the benefits of rescue. The campaign will highlight the problems that can occur when
 purchasing dogs from unregulated breeders. There will be a page containing information about where people in Ireland go can to 
@@ -37,7 +39,8 @@ Project Purpose:
 
 ### 4. Skeleton 
 
-* Wireframes can be viewed here: https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1. 
+* Wireframes can be viewed [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1)
+
 * Home, Rescue Stories, Rescue Centres and a Contact page. 
 * A fixed navbar for mobile and tablet view. 
 * A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
