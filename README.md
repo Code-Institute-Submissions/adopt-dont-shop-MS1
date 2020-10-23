@@ -44,7 +44,13 @@ easily distinguished.
 ### 4. Skeleton 
 
 * Wireframes can be viewed [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1)
-
+  
+  **When viewing the wireframes you will see that design changes were made throughout the process.**
+  * Initially the Homepage was to have three columns of content, however when implementing this the content didn't look or feel right. There was 
+    information missing that I felt was crucial to the user stories so instead the Homepage contains more content and displays two columns and then 
+    stacks the remaining content. 
+  * The Rescue Centres page became more detailed, providing the user with better information. This makes the user experience smoother and overall a better
+    way to convey the information. My mentor suggested this change on our initial planning call. 
 * Home, Rescue Stories, Rescue Centres and a Contact page. 
 * A fixed navbar for mobile and tablet view. 
 * A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
@@ -63,7 +69,7 @@ The heading font chosen is Montserrat paired with Lora.
 **Images:** 
  
 All images are related directly to the purpose of the site, this is why photos of animals were chosen. I deliberately chose photos 
-where the animals looked relaxed or happy rather than showing the in rescue centres or coming from unpleasant places as I didn't want to evoke 
+where the animals looked relaxed or happy rather than showing them in rescue centres or coming from unpleasant places as I didn't want to evoke 
 negative/upsetting emotions for users.
 
 ## Features 
@@ -79,7 +85,6 @@ negative/upsetting emotions for users.
 
 * The form needs to be fully functional and know what to do with the data, this will come further into the course.
  
-
 ## Technologies Used 
 
 ### Languages Used 
@@ -128,6 +133,7 @@ last rescue centre, I fixed this by implementing the correct URL in the href.
 * I tested that the form would require an input to be sent, this was done by clicking the "Send Question" button, the form returns the value 
 "Please fill in this field!"
 * I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
+* I ran the final deployed site to ensure it matched the development version, which it does. 
 
 ## Project Barriers And Solutions 
 
@@ -145,6 +151,13 @@ Stack Overflow and found a solution, the link for the code I used is here and cr
 
 * My cards on the "Rescue Centres" page, weren't displaying at the same height on all devices. I added a class of h-100 to the card and this fixed the issue.
 I got this information from Stack Overflow, the link is as follows: https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns.
+
+* For my "Rescue Stories" page, the images are linked through my css file rather than directly in my html. I researched how to provide an "alt" text to ensure accessibility and 
+found the answer here https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute. 
+
+* The Rescue Centres page when viewed on an Ipad/tablet may appear stretched, on large devices I wished to show 3 centres side by side, stacked on mobile and then 
+  2 side by side on medium devices. To do this I felt I would have to break my content into 3 rows of 2, but then I could not get the 3 x 3 on larger devices. If I
+  chose to do it this way then the large view was very distorted so I made the decision to keep it as is. 
 
 
 ## Code Validity 
