@@ -3,7 +3,7 @@
 ![Am I Responsive Img](assets/images/am-i-responsive-2.png)
 
 The aim of this project is to encourage people to rescue animals, in particular dogs. The project will showcase
-stores of rescue animals and the benefits of rescue. The campaign will highlight the problems that can occur when
+stories of rescue animals and the benefits of rescue. The campaign will highlight the problems that can occur when
 purchasing dogs from unregulated breeders. There will be a page containing information about where people in Ireland go can to 
 rescue a dog or support charities.
 
