@@ -155,7 +155,7 @@ I got this information from Stack Overflow, the link is as follows: https://stac
 * For my "Rescue Stories" page, the images are linked through my css file rather than directly in my html. I researched how to provide an "alt" text to ensure accessibility and 
 found the answer here https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute. 
 
-* The Rescue Centres page when viewed on an Ipad/tablet may appear stretched, on large devices I wished to show 3 centres side by side, stacked on mobile and then 
+* The Rescue Centres page feels slightly out of proportion on medium devices, on large devices I wished to show 3 centres side by side, stacked on mobile and then 
   2 side by side on medium devices. To do this I felt I would have to break my content into 3 rows of 2, but then I could not get the 3 x 3 on larger devices. If I
   chose to do it this way then the large view was very distorted so I made the decision to keep it as is. 
 
