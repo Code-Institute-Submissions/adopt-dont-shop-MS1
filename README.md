@@ -134,6 +134,7 @@ last rescue centre, I fixed this by implementing the correct URL in the href.
 "Please fill in this field!"
 * I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
 * I ran the final deployed site to ensure it matched the development version, which it does. 
+* I ran the final deployed site on Google Chrome, Safari on Macbook and on Firefox. The site renders correctly across all three browsers. 
 
 ## Project Barriers And Solutions 
 
