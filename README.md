@@ -139,35 +139,35 @@ is included.
 
 ## Credits 
 
-### Content 
+### Content
+
+* All content is written by me. 
+* The layout of my Rescue Centre page using cards, the layout was taken from the Bootstrap documentation and then customised for my content.
+  The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
+* All "Rescue Centres" logos are taken from the charities own websites or social medias.
 
 ### Media 
 
-* YouTube - general reference and specifically for Nav Bar implementation as commented in code. 
-* https://www.w3schools.com/ - general reference 
-* https://getbootstrap.com/ - documentation for different features. 
-* https://tinypng.com/ - to compress image sizes without losing quality.
-* https://stackoverflow.com/ - general reference 
-* https://unsplash.com. - images
-* https://www.pexels.com - images 
+* My background image on the "Contact Page" is from https://www.pexels.com.
+* My homepage image is from https://unsplash.com. 
+* My 5th and 6th "Rescue Stories" images are from https://unsplash.com.
+* Images that aren't referenced above are my own personal photos. 
+* https://www.pagecloud.com/blog/best-google-fonts-pairings - I used this article to help pair my fonts. 
 * http://ami.responsivedesign.is/ - for image displaying site on different devices in README. 
 
 ### Acknowledgements 
 
-* The layout of my Rescue Centre page using cards, the layout was taken from the Bootstrap documentation and then customised for my content.
-  The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
 * To the Code Institute course material, as the basis of all my knowledge is from here.
 * To the Slack community as I have used the different channels to find answers to problems!
-* My background image on the "Contact Page" is from https://www.pexels.com.
-* My homepage image is from https://unsplash.com. 
-* My 5th and 6th "Rescue Stories" images are from https://unsplash.com.
 * Stack Overflow as a valuable resource for solving a couple of issues. 
-* Images that aren't referenced above are my own personal photos. 
-* All content is written by me. 
-* All "Rescue Centres" logos are taken from the charities own websites or social medias.
-* https://www.pagecloud.com/blog/best-google-fonts-pairings - I used this article to help pair my fonts. 
+* https://www.youtube.com/ - general reference 
+* https://www.w3schools.com/ - general reference 
+* https://getbootstrap.com/ - documentation for different features. 
+* https://tinypng.com/ - to compress image sizes without losing quality.
+* https://stackoverflow.com/ - general reference 
 
-I would like to thank:
+I would also like to thank:
+
 * My mentor Precious Ijege for his time, support and guidance. 
 * Jim Lynx who is also on the course, he answered my questions and I also read his README as I found it very helpful regarding layout of content.
-* The Slack community who have helped me anytime I have had a question. 
+
