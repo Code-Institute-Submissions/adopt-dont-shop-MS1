@@ -67,3 +67,32 @@
 * Edge: The site looks good and is responsive. 
 
 * Opera: The site looks good and is responsive. 
+
+## Responsiveness 
+
+* I ran each page through https://search.google.com/test/mobile-friendly and the results returned stated that all pages are mobile friendly with no loading issues.
+* Using [Responsive Design Checker](https://www.responsivedesignchecker.com/) I viewed the site, these are the results I found. 
+
+![Mobile Testing](assets/images/mobile-testing-1.png)
+
+![Mobile Testing](assets/images/mobile-testing-2.png)
+
+## Navigation And Links 
+
+* On the "Rescue Centres" page I checked that each button opens in a new tab and takes the user to the intended external site. When I did this I found an error on the
+last rescue centre, I fixed this by implementing the correct URL in the href.
+* I tested the navbar brand text (Adopt Don't Shop) leads the user back to the home page.
+* I tested that each navbar link (Home, Rescue Stories, Rescue Centres, Contact) takes the user to the correct page.
+* I tested the Social Media links in the footer, to ensure these take the user to the appropriate external site.
+
+## Validation 
+
+* I tested that the form would require an input to be sent, this was done by clicking the "Send Question" button, the form returns the value
+"Please fill in this field!"
+
+
+
+
+
+
+
