@@ -14,7 +14,7 @@ The deployed site can be viewed [here.](https://ellyc20.github.io/adopt-dont-sho
 ### User Stories 
 1. As a user I want to be able to navigate the site easily.
 2. As a user I want to be able to contact the campaign organisers if I have a question.
-3. As a user I want to be able to find out where I can go to adopt a dog or support a charity.
+3. As a user I want to be able to find out where I can go to adopt a pet or support a charity.
 4. As a user I want to understand what the websites purpose is immediately. 
 5. As a user I want to read stories from others who have rescued, to see if it is for me.
 
@@ -115,7 +115,7 @@ negative/upsetting emotions for users.
 
 ## Testing
 
-All of the testing details can be found [here.]()
+All of the testing details can be found [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/blob/master/TESTING.md)
 
 ## Project Barriers And Solutions 
 
