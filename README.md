@@ -7,6 +7,8 @@ stories of rescue animals and the benefits of rescue. The campaign will highligh
 purchasing dogs from unregulated breeders. There will be a page containing information about where people in Ireland go can to 
 rescue a dog or support charities.
 
+The deployed site can be viewed [here.](https://ellyc20.github.io/adopt-dont-shop-MS1/index.html)
+
 ## UX 
 
 ### User Stories 
@@ -50,7 +52,7 @@ maximum impact.
 
 ### 4. Skeleton 
 
-* Wireframes can be viewed [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/assets/wireframes/wireframes-ms1)
+* Wireframes can be viewed [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/tree/master/wireframes/wireframes-ms1)
   
   **When viewing the wireframes you will see that design changes were made throughout the process.**
   * Initially the Homepage was to have three columns of content, however when implementing this the content didn't look or feel right. There was 
@@ -97,54 +99,23 @@ negative/upsetting emotions for users.
 
 ### Languages Used 
 
-* HTML5 
-* CSS3 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Provides the content and structure.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides styling to the project.
 
 ### Frameworks & Libaries Used
 
-* Bootstrap 4.5 
-* Google Fonts
-* Font Awesome 
-* Git 
-* Github 
-* Gitpod 
-* Github Pages 
-* Google Chrome Developer Tools
-
-## Resources 
-
-* YouTube - general reference and specifically for Nav Bar implementation as commented in code. 
-* https://www.w3schools.com/ - general reference 
-* https://getbootstrap.com/ - documentation for different features. 
-* https://tinypng.com/ - to compress image sizes without losing quality.
-* https://stackoverflow.com/ - general reference 
-* https://unsplash.com. - images
-* https://www.pexels.com - images 
-* http://ami.responsivedesign.is/ - for image displaying site on different devices in README. 
+* [Bootstrap 4.5](https://getbootstrap.com/) - Used to create the layout of elements of this project.
+* [Google Fonts](https://fonts.google.com/) - Used to provide the two fonts used.
+* [Font Awesome](https://fontawesome.com/icons) - Used for any icons on the site.
+* [Git](https://git-scm.com/) - Used for version control. 
+* [Github](https://github.com/) - Used to store the project.
+* [Gitpod](https://www.gitpod.io/) - Used to develop the project.
+* [Github Pages](https://pages.github.com/) - Used to host my deployed site.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Used throughout the development of the project and in testing.
 
 ## Testing
 
-* Once I had implemented my Nav Bar and Home Page image, I viewed this using Google Chrome Developer Tools to see how the image and nav bar 
-appeared on different device sizes. I then physically checked this on an Iphone 8, Iphone 8 Plus, Ipad Pro 11" and a Macbook Air 13".
-* When I added the Contact Page, I tested the responsiveness of the site so far on mobile devices by using https://search.google.com/test/mobile-friendly. 
-This test returned the result that the site was mobile friendly and that there were no loading issues. 
-* I ran each deployed page individually through https://color.a11y.com/ to test that the colour contrast was accessible, this returned excellent results. 
-* On the Rescue Centres page I checked that each button opens a new tab and takes the user to the intended external site. When I did this I found an error on the 
-last rescue centre, I fixed this by implementing the correct URL in the href. 
-* The site was viewed physically through a Samsung A21s, on this device all pages appeared as they should and links / buttons worked well. 
-* The site was viewed physically through an Ipad Pro 11" all pages appeared as they should and links / buttons worked well.
-* The site was viewed physically through an Iphone 8 plus all pages appeared as they should and links / buttons worked well.
-* The site was viewed physically through an Iphone 8 all pages appeared as they should and links / buttons worked well.
-* I tested the navbar brand text (Adopt Don't Shop) leads the user back to the home page. 
-* I tested that each navbar link (Home, Rescue Stories, Rescue Centres, Contact) takes the user to the correct page. 
-* I tested the Social Media links in the footer, to ensure these take the user to the appropiate external link. 
-* I tested that the form would require an input to be sent, this was done by clicking the "Send Question" button, the form returns the value 
-"Please fill in this field!"
-* I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
-* I ran the final deployed site to ensure it matched the development version, which it does. 
-* I ran the final deployed site on Google Chrome, Safari on Macbook and on Firefox. The site renders correctly across all three browsers. 
-* Using Google Chrome Developer Tools, I used the "Lighthouse" tool to assess accessibility, through doing this I found my navbar icon weren't accessible, I 
-corrected this by adding "Aria-label". 
+All of the testing details can be found [here.]()
 
 ## Project Barriers And Solutions 
 
@@ -170,6 +141,8 @@ found the answer here https://stackoverflow.com/questions/4216035/css-background
   2 side by side on medium devices. To do this I felt I would have to break my content into 3 rows of 2, but then I could not get the 3 x 3 on larger devices. If I
   chose to do it this way then the large view was very distorted so I made the decision to keep it as is. 
 
+* When testing using Google Chrome Developer Tools, I used the "Lighthouse" tool to assess accessibility, through doing this I found my navbar icon wasn't accessible, I 
+corrected this by adding "Aria-label". 
 
 ## Code Validity 
 
@@ -178,11 +151,9 @@ on researching on Stack Overflow it seemed you could ignore it as it is a warnin
 the section doesn't have a specific benefit. I replaced with a div, reran and this returned no errors.
 * CSS - https://jigsaw.w3.org/css-validator/validator , this returned no errors. 
 
-## Version Control 
-
-For version control, Git was used.
-
 ## Deployment
+
+### To Deploy this project, these are the steps taken: 
 
 * All code was written using Gitpod, an online IDE.
 * This code was pushed to Github and stored as a repositorie.
@@ -199,7 +170,22 @@ For version control, Git was used.
 * If you clone you will be provided with a url to run in your IDE. 
 * If you download, you will be given a zip file.
 
-## Acknowledgements 
+## Credits 
+
+### Content 
+
+### Media 
+
+* YouTube - general reference and specifically for Nav Bar implementation as commented in code. 
+* https://www.w3schools.com/ - general reference 
+* https://getbootstrap.com/ - documentation for different features. 
+* https://tinypng.com/ - to compress image sizes without losing quality.
+* https://stackoverflow.com/ - general reference 
+* https://unsplash.com. - images
+* https://www.pexels.com - images 
+* http://ami.responsivedesign.is/ - for image displaying site on different devices in README. 
+
+### Acknowledgements 
 
 * The layout of my Rescue Centre page using cards, the layout was taken from the Bootstrap documentation and then customised for my content.
   The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
