@@ -134,8 +134,11 @@ is included.
 
 * You can run the code locally by cloning or downloading. 
 * You click the code button within the repositorie and then select either clone or download. 
-* If you clone you will be provided with a url to run in your IDE. 
-* If you download, you will be given a zip file.
+* If you choose to clone you will be provided with a URL. Copy the URL from the "Clone with HTTPS" section.
+* In your IDE, open Git Bash.
+* Type Git Clone and then paste the URL you copied. 
+* Press enter and this will create the clone. 
+* If you choose to download, you will be given a zip file.
 
 ## Credits 
 
@@ -145,6 +148,8 @@ is included.
 * The layout of my Rescue Centre page using cards, the layout was taken from the Bootstrap documentation and then customised for my content.
   The link to this documentation can be found here https://getbootstrap.com/docs/4.0/components/card/. 
 * All "Rescue Centres" logos are taken from the charities own websites or social medias.
+* I used the Bootstrap Navbar and customised as needed, https://getbootstrap.com/docs/4.0/components/navbar/.
+
 
 ### Media 
 
