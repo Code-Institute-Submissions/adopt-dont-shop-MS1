@@ -144,13 +144,6 @@ found the answer here https://stackoverflow.com/questions/4216035/css-background
 * When testing using Google Chrome Developer Tools, I used the "Lighthouse" tool to assess accessibility, through doing this I found my navbar icon wasn't accessible, I 
 corrected this by adding "Aria-label". 
 
-## Code Validity 
-
-* HTML - https://validator.w3.org/ , I ran each page individually through the validator and it returned an error regarding their not being a header within my section,
-on researching on Stack Overflow it seemed you could ignore it as it is a warning not an error but better practice is to remove the section and replace with a div as 
-the section doesn't have a specific benefit. I replaced with a div, reran and this returned no errors.
-* CSS - https://jigsaw.w3.org/css-validator/validator , this returned no errors. 
-
 ## Deployment
 
 ### To Deploy this project, these are the steps taken: 

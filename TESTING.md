@@ -77,6 +77,10 @@
 
 ![Mobile Testing](assets/images/mobile-testing-2.png)
 
+![Medium Device Testing](assets/images/med-device-1.png)
+
+![Medium Device Testing](assets/images/med-device-2.png)
+
 ## Navigation And Links 
 
 * On the "Rescue Centres" page I checked that each button opens in a new tab and takes the user to the intended external site. When I did this I found an error on the
