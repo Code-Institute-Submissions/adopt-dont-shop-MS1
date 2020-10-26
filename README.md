@@ -40,6 +40,13 @@ rescue a dog or support charities.
 * A clear layout is in place to ensure users can immediately find what they're looking for. The menu icon used on smaller devices is a well 
 recognised icon (hamburger icon) ensuring familiarity. The content is laid out in a way that makes it easy to read and the sections are 
 easily distinguished. 
+* The Home Page  displays the most information regarding the project and its purpose. It's broken down into small paragraphs making the content 
+easy to read for the user.
+* The Rescue Stories effectively showcases rescue stories that may encourage others to adopt a pet, these stories are paired with photos for
+maximum impact.
+* The Rescue Centres page is straight forward and simple to use, users can instinctively visit external websites to gain more information.
+* The Contact page was kept very simple allowing users to fill out a form without much complexity. 
+* In the Footer users can easily find a contact number, an address and any social media links. 
 
 ### 4. Skeleton 
 
