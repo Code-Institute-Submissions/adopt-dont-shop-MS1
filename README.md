@@ -59,7 +59,7 @@ maximum impact.
   * The Rescue Centres page became more detailed, providing the user with better information. This makes the user experience smoother and overall a better
     way to convey the information. My mentor suggested this change on our initial planning call. 
 * Home, Rescue Stories, Rescue Centres and a Contact page. 
-* A fixed navbar for mobile and tablet view. 
+* A fixed navbar for all device view.
 * A footer with Social Media links, a contact number and an address. This gives people multiple options of contact.
 
 ### 5. Surface 
@@ -87,9 +87,7 @@ negative/upsetting emotions for users.
 * A four page site navigated using the Nav Bar on large device screens, or a hamburger menu on medium and smaller devices. 
 * A page displaying multiple cards containing buttons which allow the user to visit external websites. 
 * Social media links are easily accessible in the footer for the user. 
-* Nav bar is fixed on devices smaller than desktop, to ensure easy access to menu options. The choice to not fix the Nav Bar on desktop view was made 
-  as the Nav bar would cover a lot of content and make the site look unpleasant, I experiemented with making it opaque but felt it made the text hard to read
-  and may lead to accessibility issues. 
+* A fixed Navbar on all screen sizes. 
 
 ### Features Left To Be Implemented
 
