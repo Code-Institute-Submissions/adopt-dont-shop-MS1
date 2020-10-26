@@ -2,7 +2,7 @@
 
 [HTML Validator](https://validator.w3.org/)
 
-* Home Page: 
+* Home Page: Returned no errors.
 
 ![Home Page Validity](assets/images/homepage-validity.png)
 
@@ -10,17 +10,17 @@
 
 ![Rescue Stories Validity](assets/images/rescue-stories-validity.png)
 
-* Rescue Centres:
+* Rescue Centres: Returned no errors.
 
 ![Rescue Centres Validity](assets/images/rescue-centres-validity.png)
 
-* Contact Page: 
+* Contact Page: Returned no errors.
 
 ![Contact Page Validity](assets/images/contact-validity.png)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-* CSS validated by direct input: 
+* CSS validated by direct input: Returned no errors.
 
 ![CSS Validity](assets/images/css-validator.png)
 
@@ -55,3 +55,15 @@
     * There is a dedicated page to rescue stories, they are accessed using the navbar or hamburger menu and selecting 'Rescue Stories". 
     The stories discuss a small amount of the animals history and shows the benefit of rescuing that animal. This is done by showing what kind of 
     situation these animals came from and what kind of life they may have led had someone not adopted them. 
+
+## Browser Testing 
+
+* Chrome: The site looks good and is responsive.
+
+* Firefox: The site looks good and is responsive. One difference I noted is that the "Footer" text appears slightly bolder and darker.
+
+* Safari: The site looks good and is responsive. One difference I noted is that the "Footer" text appears slightly bolder and darker.
+
+* Edge: The site looks good and is responsive. 
+
+* Opera: The site looks good and is responsive. 
