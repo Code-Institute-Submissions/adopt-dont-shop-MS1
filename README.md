@@ -71,7 +71,8 @@ warm colours, I felt warm colours would invoke feelings of happiness.
 
 **Font:** 
 
-The heading font chosen is Montserrat paired with Lora. 
+The heading font chosen is Montserrat paired with Lora for all body text. I chose the fonts as they paired nicely and I used the article linked
+in my acknowledgements to choose fonts that are commonly used. 
 
 **Images:** 
  
@@ -142,6 +143,8 @@ last rescue centre, I fixed this by implementing the correct URL in the href.
 * I ran each page through https://search.google.com/test/mobile-friendly again and the results returned stated all pages are mobile friendly with no loading issues.
 * I ran the final deployed site to ensure it matched the development version, which it does. 
 * I ran the final deployed site on Google Chrome, Safari on Macbook and on Firefox. The site renders correctly across all three browsers. 
+* Using Google Chrome Developer Tools, I used the "Lighthouse" tool to assess accessibility, through doing this I found my navbar icon weren't accessible, I 
+corrected this by adding "Aria-label". 
 
 ## Project Barriers And Solutions 
 
