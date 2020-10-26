@@ -87,7 +87,9 @@ negative/upsetting emotions for users.
 * A four page site navigated using the Nav Bar on large device screens, or a hamburger menu on medium and smaller devices. 
 * A page displaying multiple cards containing buttons which allow the user to visit external websites. 
 * Social media links are easily accessible in the footer for the user. 
-* Nav bar is fixed on devices smaller than desktop, to ensure easy access to menu options.
+* Nav bar is fixed on devices smaller than desktop, to ensure easy access to menu options. The choice to not fix the Nav Bar on desktop view was made 
+  as the Nav bar would cover a lot of content and make the site look unpleasant, I experiemented with making it opaque but felt it made the text hard to read
+  and may lead to accessibility issues. 
 
 ### Features Left To Be Implemented
 
