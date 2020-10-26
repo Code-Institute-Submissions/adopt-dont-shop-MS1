@@ -267,14 +267,6 @@ footer p {
     }
 }
 
-/* For no fixed navbar on desktop devices */
-@media (min-width: 1024px) {
-    .fixed-top
-    {
-    position: relative;
-    }
-}
-
 /* To stop navbar covering content */
 @media (max-width: 540px) {
     .home-image 
