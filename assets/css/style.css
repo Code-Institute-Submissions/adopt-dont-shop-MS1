@@ -255,18 +255,6 @@ footer p {
     }
 }
 
-/* For fixed top navbar on small/md devices*/
-@media (max-width: 1024px) {
-    .fixed-top 
-    {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    }
-}
-
 /* To stop navbar covering content */
 @media (max-width: 540px) {
     .home-image 
@@ -282,17 +270,24 @@ footer p {
     }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 1024px) {
     .story-image-1 
     {
     margin-top: 60px;
     }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 1024px) {
     .story-text
     {
-    margin-top: 15px;
+    margin-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .story-image-1 
+    {
+    margin-top: 60px;
     }
 }
 
@@ -303,7 +298,7 @@ footer p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .rescue-centres-one
     {
         margin-top: 75px;
@@ -317,10 +312,10 @@ footer p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .col
     {
-        margin-top: 65px;
+        margin-top: 60px;
     }
 }
 
