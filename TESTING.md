@@ -6,7 +6,7 @@
 
 ![Home Page Validity](assets/images/homepage-validity.png)
 
-* Rescue Stories:
+* Rescue Stories: Returned no errors.
 
 ![Rescue Stories Validity](assets/images/rescue-stories-validity.png)
 
@@ -80,6 +80,8 @@
 ![Medium Device Testing](assets/images/med-device-1.png)
 
 ![Medium Device Testing](assets/images/med-device-2.png)
+
+![Large Device Testing](assets/images/large-device.png)
 
 ## Navigation And Links 
 
