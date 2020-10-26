@@ -115,34 +115,8 @@ negative/upsetting emotions for users.
 
 ## Testing
 
-All of the testing details can be found [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/blob/master/TESTING.md)
-
-## Project Barriers And Solutions 
-
-* I ran into issues almost immediately with creating a responsive image on the home page that would work across different devices and wouldn't
-contain too much white space. In the end using "img-fluid" gave the best response.
-
-* I implemented a hamburger menu that upon clicking a link within, it would not collapse. I found a solution on Stack Overflow which is credited in my code, 
-the solution used is found at this link https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked. 
-
-* I deployed my site and when I did so, the images on my "Rescue Centres" page were not showing and were instead displaying as the "alt" description. 
-When I had been using Gitpod to preview, these images had been working fine. I searched through Slack and realised I was using absolute file paths rather than relative.
-
-* When viewing the site on larger device screens, I noticed my page was scrollable horizontally and was leaving unwanted space to the right. I searched 
-Stack Overflow and found a solution, the link for the code I used is here and credited in my style.css file. Link: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
-
-* My cards on the "Rescue Centres" page, weren't displaying at the same height on all devices. I added a class of h-100 to the card and this fixed the issue.
-I got this information from Stack Overflow, the link is as follows: https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns.
-
-* For my "Rescue Stories" page, the images are linked through my css file rather than directly in my html. I researched how to provide an "alt" text to ensure accessibility and 
-found the answer here https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute. 
-
-* The Rescue Centres page feels slightly out of proportion on medium devices, on large devices I wished to show 3 centres side by side, stacked on mobile and then 
-  2 side by side on medium devices. To do this I felt I would have to break my content into 3 rows of 2, but then I could not get the 3 x 3 on larger devices. If I
-  chose to do it this way then the large view was very distorted so I made the decision to keep it as is. 
-
-* When testing using Google Chrome Developer Tools, I used the "Lighthouse" tool to assess accessibility, through doing this I found my navbar icon wasn't accessible, I 
-corrected this by adding "Aria-label". 
+All of the testing details can be found [here.](https://github.com/EllyC20/adopt-dont-shop-MS1/blob/master/TESTING.md) All information regarding Project Barriers and Solutions
+is included.
 
 ## Deployment
 
