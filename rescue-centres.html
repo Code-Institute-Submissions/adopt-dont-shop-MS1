@@ -39,6 +39,8 @@
     <!-- RESCUE CENTRES -->
     <!-- The layout for using cards was taken from Bootstrap documentation, then customised to suit my needs. The link for the documentation 
     is https://getbootstrap.com/docs/4.0/components/card/#using-grid-markup -->
+    <!-- Cards weren't displaying at the same height across all devices, I researched and using Stack Overflow found adding a class of h-100 resolved the issue.
+    The link to this info is here https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
     <div class="container-fluid rescue-centres-one">
         <div class="row">
             <div class="col-md-4 col-sm-12">
@@ -49,71 +51,71 @@
                         Madra is based in Galway, they rescue, rehabilitate and rehome unwanted dogs. Their contact number is 091 584 274
                     </p>
                     <a href="https://www.madra.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                 </div>
+                </div>
                </div>
             </div>
-        <div class="col-md-4 col-sm-12">
-            <div class="card h-100">
-                <img class="card-img-top" style="height: 25rem;"  src="assets/images/dogs-trust.jpg" alt="Dogs Trust Logo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            A well known welfare charity, they have a rescue centre in Dublin. Their contact number is 01 879 1000
-                        </p>
-                        <a href="https://www.dogstrust.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                     </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;"  src="assets/images/dogs-trust.jpg" alt="Dogs Trust Logo">
+                <div class="card-body">
+                    <p class="card-text">
+                        A well known welfare charity, they have a rescue centre in Dublin. Their contact number is 01 879 1000
+                    </p>
+                    <a href="https://www.dogstrust.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img class="card-img-top" style="height: 25rem;" src="assets/images/ispca-logo.jpg" alt="ISPCA Logo">
+                <div class="card-body">
+                    <p class="card-text">
+                        The ISPCA has multiple centres around Ireland, from their National Equine Centre to the Rehabilitation Centre for all animals. 
+                    </p>
+                <a href="https://www.ispca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                </div>
+                </div>
             </div>
         </div>
-     <div class="col-md-4 col-sm-12">
-         <div class="card h-100">
-             <img class="card-img-top" style="height: 25rem;" src="assets/images/ispca-logo.jpg" alt="ISPCA Logo">
-             <div class="card-body">
-                 <p class="card-text">
-                     The ISPCA has multiple centres around Ireland, from their National Equine Centre to the Rehabilitation Centre for all animals. 
-                 </p>
-                 <a href="https://www.ispca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-             </div>
-          </div>
-      </div>
-    </div>
     </div>
     <div class="container-fluid rescue-centres-two">
     <!-- Cards weren't displaying at the same height across all devices, I researched and using Stack Overflow found adding a class of h-100 resolved the issue.
     The link to this info is here https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
-       <div class="row">
+        <div class="row">
             <div class="col-md-4 col-sm-12">
                 <div class="card h-100">
                     <img class="card-img-top" style="height: 25rem;" src="assets/images/paws-rescue.jpg" alt="PAWS Logo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Paws are dedicated to rescuing homeless or abandoned animals, they also help to resuce dogs from "high-kill" pounds. 
-                            You can contact them on 052 915 3507.
-                        </p>
-                        <a href="https://www.paws.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                    </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Paws are dedicated to rescuing homeless or abandoned animals, they also help to resuce dogs from "high-kill" pounds. 
+                        You can contact them on 052 915 3507.
+                    </p>
+                    <a href="https://www.paws.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="card h-100">
                     <img class="card-img-top" style="height: 25rem;"  src="assets/images/ainmhithe-logo.jpg" alt="Ainmhithe Logo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            A small independent rescue based in Co.Mayo, they have a no-kill policy so all animals in their care remain with them 
-                            until they find their forever home!
-                        </p>
-                        <a href="https://ainmhitheanimalrescue.com/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                    </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        A small independent rescue based in Co.Mayo, they have a no-kill policy so all animals in their care remain with them 
+                        until they find their forever home!
+                    </p>
+                    <a href="https://ainmhitheanimalrescue.com/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="card h-100">
                     <img class="card-img-top" style="height: 25rem;" src="assets/images/cspca-logo.png" alt="CSPCALogo">
-                    <div class="card-body">
-                        <p class="card-text">
-                            A non profit organisation that relies heavily on donations, they rescue unwanted animals from the Cork area. 
-                            You can contact them on 021 451 5534. 
-                        </p>
-                        <a href="http://cspca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
-                    </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        A non profit organisation that relies heavily on donations, they rescue unwanted animals from the Cork area. 
+                        You can contact them on 021 451 5534. 
+                    </p>
+                    <a href="http://cspca.ie/" target="_blank" class="btn btn-dark">Visit Their Site</a>
+                </div>
                 </div>
             </div>
         </div>
